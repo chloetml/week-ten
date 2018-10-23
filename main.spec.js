@@ -9,7 +9,10 @@ describe("Vue component tests", () => {
     const defaultData = App.data();
     expect(defaultData.title).toBe("I'm very sleepy");
   });
-
+  // try this thank you
+  it("The component should have an change function.", () => {
+    expect(typeof App.methods.change).toBe("function");
+  });
   it("The component should have an updateCurrentChart function.", () => {
     expect(typeof App.methods.updateCurrentChart).toBe("function");
   });
