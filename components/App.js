@@ -11,6 +11,7 @@ export default {
   data() {
     return {
       currentChart: "localBarData",
+      title: "I'm very sleepy",
       localBarData: [
         ["Jan", 4],
         ["Feb", 2],
