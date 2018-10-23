@@ -10,6 +10,10 @@ describe("Vue component tests", () => {
     expect(defaultData.title).toBe("TannedRam");
   });
 
+  it("The component should have an change function.", () => {
+    expect(typeof App.methods.change).toBe("function");
+  });
+
   it("The component should have an updateCurrentChart function.", () => {
     expect(typeof App.methods.updateCurrentChart).toBe("function");
   });
